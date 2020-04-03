@@ -4,7 +4,6 @@ import library from '@/views/library'
 import countDown from '@/views/Layout/countDown'
 import Notice from '@/views/Layout/Notice'
 
-console.log('library+++',library )
 Vue.use(Router)
 export default new Router({
   mode: 'history',
