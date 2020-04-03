@@ -7,10 +7,10 @@
     </div>
 </template>
 <script>
-// import readMe from './readme.md'
+import readMe from './readme.md'
 export default {
   components: {
-    // readMe
+    readMe
   }
 }
 </script>
