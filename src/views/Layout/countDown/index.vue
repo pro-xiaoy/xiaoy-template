@@ -8,6 +8,7 @@
 </template>
 <script>
 import readMe from './readme.md'
+console.log('readme')
 export default {
   components: {
     readMe
