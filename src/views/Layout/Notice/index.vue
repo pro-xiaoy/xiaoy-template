@@ -10,10 +10,10 @@
  </div>
 </template>
 <script>
-import readme from './readme.md'
+// import readme from './readme.md'
 export default {
   components: {
-    readme
+    // readme
   },
   data () {
     return {
