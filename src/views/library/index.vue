@@ -1,7 +1,7 @@
 <template>
-    <div class="libra-body">
-      <img src="../../assets/sabar.jpg" alt="" width="80%">
-    </div>
+  <div class="libra-body">
+    <img src="../../assets/sabar.jpg" alt width="80%" />
+  </div>
 </template>
 <script>
 export default {
@@ -10,5 +10,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 </style>

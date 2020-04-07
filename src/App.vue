@@ -15,6 +15,9 @@ export default {
   },
   components: {
     'conTainer': conTainer
+  },
+  created() {
+    let a = 21
   }
 }
 </script>

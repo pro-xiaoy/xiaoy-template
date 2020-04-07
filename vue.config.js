@@ -1,3 +1,9 @@
+
+const path = require("path");
+
+function resolve (dir) {
+  return path.join(__dirname, dir)
+}
 module.exports = {
   publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
   chainWebpack: config => {
@@ -11,5 +17,13 @@ module.exports = {
      .options({
       raw: true
      })
-   }
+     .end()
+   },
+   configureWebpack: {
+    resolve: {
+      alias: {
+        css: path.join(__dirname, 'src/assets/css'),
+      },
+    },
+  },
 };

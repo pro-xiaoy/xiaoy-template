@@ -23,11 +23,11 @@
 </template>
 <script>
 export default {
-  name: "container",
+  name: 'container',
   data() {
-    return {};
+    return {}
   }
-};
+}
 </script>
 <style lang="scss" scoped>
 .container {
