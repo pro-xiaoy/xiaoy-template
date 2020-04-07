@@ -1,4 +1,6 @@
 # y-compentent
+## 新增预览地址
+[预览](https://pro-xiaoy.github.io/xiaoy-template/dist)
 ## install
 ```js
   npm i y-compentent

@@ -1,8 +1,15 @@
 # y-Compontent 
 ### 展示
 [预览地址](https://pro-xiaoy.github.io/xiaoy-template/dist/)
-### packages
-## install
+### star
+发布 
+```js
+ sh ./deploy.sh
+```
+
+## packages
+包的地址打包软件的地址
+### install
 ```js
   npm i y-compentent
 ````
