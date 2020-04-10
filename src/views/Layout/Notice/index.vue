@@ -1,19 +1,19 @@
 <template>
- <div>
-  <h1>公告</h1>
-  <p>基于vue</p>
   <div>
-    <p>示例</p>
-    <notice :content='text'></notice>
+    <h1>公告</h1>
+    <p>基于vue</p>
+    <div>
+      <p>示例</p>
+      <notice :content="text"></notice>
+    </div>
+    <readme></readme>
   </div>
-  <readme></readme>
- </div>
 </template>
 <script>
-// import readme from './readme.md'
+import readme from './readme.md'
 export default {
   components: {
-    // readme
+    readme
   },
   data () {
     return {
@@ -23,5 +23,4 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-
 </style>
