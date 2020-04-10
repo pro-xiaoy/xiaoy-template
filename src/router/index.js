@@ -7,7 +7,7 @@ import Notice from '@/views/Layout/Notice'
 Vue.use(Router)
 export default new Router({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: '/xiaoy-template/dist/',
   routes: [{
       path: '/',
       name: 'library',
