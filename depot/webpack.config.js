@@ -1,17 +1,17 @@
-var path = require('path')
-var webpack = require('webpack')
+let path = require('path')
+let webpack = require('webpack')
 
 
 
 module.exports = {
   // entry: './src/main.js', // 启动和打包
-  entry: './src/index.js',   // 发版本
+  entry: './src/index.js', // 发版本
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    // filename: 'build.js',   // 启动和打包
-    filename: 'y-compentent.js',  // 发版本
-    library: "y-compentent",
+    // filename: 'build.js', // 启动和打包
+    filename: 'y-compentent.js', // 发版本
+    library: 'y-compentent',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
@@ -83,7 +83,7 @@ module.exports = {
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': path.resolve(__dirname, "src")
+      '@': path.resolve(__dirname, 'src')
     },
     extensions: ['*', '.js', '.vue', '.json']
   },

@@ -1,10 +1,10 @@
 <template>
-    <div>
-        <h1>倒计时</h1>
-        <p>基于vue，ele-ui</p>
-        <count-down :num='10'></count-down>
-        <read-me></read-me>
-    </div>
+  <div>
+    <h1>倒计时</h1>
+    <p>基于vue，ele-ui</p>
+    <count-down :num="10" type="success"></count-down>
+    <read-me></read-me>
+  </div>
 </template>
 <script>
 import countDown from '@/components/countDown/index.vue'
@@ -17,5 +17,4 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-
 </style>
