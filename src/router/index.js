@@ -5,10 +5,10 @@ import countDown from '@/views/Layout/countDown'
 import Notice from '@/views/Layout/Notice'
 
 Vue.use(Router)
-export default new Router({
+const routes = ({
   mode: 'history',
-  routes: [
-    {
+  base: process.env.BASE_URL,
+  routes: [{
       path: '/',
       name: 'library',
       component: library

@@ -10,14 +10,14 @@ export default {
   name: 'app',
   data () {
     return {
-      
+
     }
   },
   components: {
     'conTainer': conTainer
   },
-  created() {
-    let a = 21
+  created () {
+    let a = 2
   }
 }
 </script>
@@ -36,7 +36,8 @@ body {
   padding: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 
