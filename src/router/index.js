@@ -5,7 +5,7 @@ import countDown from '@/views/Layout/countDown'
 import Notice from '@/views/Layout/Notice'
 
 Vue.use(Router)
-const routes = ({
+export default new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [{
