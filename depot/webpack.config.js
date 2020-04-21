@@ -4,13 +4,13 @@ let webpack = require('webpack')
 
 
 module.exports = {
-  // entry: './src/main.js', // 启动和打包
-  entry: './src/index.js', // 发版本
+  entry: './src/main.js', // 启动和打包
+  // entry: './src/index.js', // 发版本
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    // filename: 'build.js', // 启动和打包
-    filename: 'y-compentent.js', // 发版本
+    filename: 'build.js', // 启动和打包
+    // filename: 'y-compentent.js', // 发版本
     library: 'y-compentent',
     libraryTarget: 'umd',
     umdNamedDefine: true
