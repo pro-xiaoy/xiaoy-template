@@ -10,6 +10,8 @@
 				@click="tabClick(item)"
 			>{{item.name}}</div>
 		</div>
+		<div @click="someinfo.name = '21321321'">dianwoyixia</div>
+		{{someinfo.name}}
 	</div>
 </template>
 
@@ -19,7 +21,12 @@ export default {
 		return {
 			initval: this.checked,
 			computedStyle: {},
-			activeDom: ""
+			activeDom: "",
+			firstName: "Foo",
+			lastName: "Bar",
+			someinfo: {
+				name: "2"
+			}
 		};
 	},
 	model: {
@@ -36,7 +43,14 @@ export default {
 			default: ""
 		}
 	},
-
+	watch: {
+		someinfo: {
+			handler(newValue, oldValue) {
+				console.log(newValue, oldValue);
+			},
+			deep: true
+		}
+	},
 	components: {},
 	created() {},
 	mounted() {
