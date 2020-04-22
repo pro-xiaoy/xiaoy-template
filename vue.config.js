@@ -1,11 +1,11 @@
 
-const path = require("path");
+const path = require('path')
 
 function resolve (dir) {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
+  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
   chainWebpack: config => {
     config.module.rule('md')
      .test(/\.md/)
@@ -17,7 +17,8 @@ module.exports = {
      .options({
       raw: true
      })
-     .end()
+		 .end()
+		 .rule('ts').end()
    },
    configureWebpack: {
     resolve: {
@@ -26,4 +27,4 @@ module.exports = {
       },
     },
   },
-};
+}
