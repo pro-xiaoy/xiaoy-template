@@ -10,8 +10,8 @@ export default new Router({
   mode: 'history',
   routes: [{
       path: '/',
-      name: 'library',
-      component: library
+      name: 'countDown',
+      component: countDown
     },
     {
       path: '/countDown',
